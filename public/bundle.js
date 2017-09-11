@@ -29258,11 +29258,14 @@
 	});
 	*/
 
+	//Syntax for arrow function
+	//(singleParam) => { statements }
+
 	var Examples = function Examples(props) {
 	  return React.createElement(
 	    'h3',
 	    null,
-	    'Examples Component'
+	    'Examples'
 	  );
 	};
 
