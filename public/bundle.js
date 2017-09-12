@@ -25672,9 +25672,9 @@
 	      'div',
 	      null,
 	      React.createElement(
-	        'h3',
-	        null,
-	        'Weather Component'
+	        'h1',
+	        { className: 'text-center' },
+	        'Weather'
 	      ),
 	      React.createElement(WeatherForm, { onSearch: this.handleSearch }),
 	      renderMessage()
@@ -29324,7 +29324,7 @@
 /* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
@@ -29340,17 +29340,17 @@
 
 	var About = function About(props) {
 	  return React.createElement(
-	    'div',
+	    "div",
 	    null,
 	    React.createElement(
-	      'h3',
-	      null,
-	      'About'
+	      "h1",
+	      { className: "text-center" },
+	      "About"
 	    ),
 	    React.createElement(
-	      'p',
-	      null,
-	      'Welcome to about page!'
+	      "p",
+	      { className: "text-center" },
+	      "Welcome to about page!"
 	    )
 	  );
 	};
@@ -29392,7 +29392,7 @@
 	    ),
 	    React.createElement(
 	      'p',
-	      null,
+	      { className: 'text-center' },
 	      'Here are a few examples locations to try out:'
 	    ),
 	    React.createElement(
