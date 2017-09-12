@@ -29349,8 +29349,37 @@
 	    ),
 	    React.createElement(
 	      "p",
-	      { className: "text-center" },
-	      "Welcome to about page!"
+	      null,
+	      "This is a weather application built on React. I have built it for React Web App Developer Course"
+	    ),
+	    React.createElement(
+	      "p",
+	      null,
+	      "Here are some of the tools I used:"
+	    ),
+	    React.createElement(
+	      "ul",
+	      null,
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "https://facebook.github.io/react" },
+	          "React"
+	        ),
+	        " - This was the Javascript framework used"
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "http://openweathermap.org" },
+	          "Open Weather Map"
+	        ),
+	        " - I used Open Weather Map to search for weather data by city name"
+	      )
 	    )
 	  );
 	};
